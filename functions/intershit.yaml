@@ -1,0 +1,16 @@
+id: QmWsDHw5Y4VyCP5prr5AvqDq18rGoEXTcsuuSRXKdzXhyB
+description: ""
+tags: []
+trigger:
+    type: https
+    method: GET
+    paths:
+        - /ping
+domains:
+    - something
+includes:
+    - /functions/intershit.go
+execution:
+    timeout: 10s
+    memory: 10MB
+    call: doShit
