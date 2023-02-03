@@ -1,0 +1,16 @@
+id: QmNLo2dcaNJ5SqE2kuuci3Lp7sqXGJQHK8ASRoCWud5Jny
+description: ""
+tags: []
+trigger:
+    type: https
+    method: GET
+    paths:
+        - /basic
+domains:
+    - something
+includes:
+    - /functions/basicshit.go
+execution:
+    timeout: 10s
+    memory: 10MB
+    call: doShit
